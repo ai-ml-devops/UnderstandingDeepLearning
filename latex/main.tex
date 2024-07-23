@@ -1,0 +1,64 @@
+\documentclass[a4paper,12pt]{book}
+\usepackage{graphicx}
+\usepackage{ctex}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{array}
+\usepackage{hyperref}
+\usepackage{fontspec} % 使用 fontspec 包来设置字体
+\usepackage[a4paper, margin=2.5cm]{geometry} % 使用 geometry 包设置页面边距
+\usepackage{caption} % 使用 caption 包来自定义图表标题
+% \usepackage{xeCJK} % 使用 xeCJK 宏包来处理中文
+
+% 设置中文字体
+
+% \setCJKmainfont{SIMSUN} 
+\setCJKmainfont[ItalicFont=宋体,BoldFont=黑体]{宋体}
+
+\captionsetup{font={small, it}} % 设置字体为小号（small），斜体（italic）
+\numberwithin{equation}{chapter} % 按章节编号公式
+
+
+
+\begin{document}
+
+\raggedbottom 
+\sloppy 
+
+\author{Simon J.D. Prince}
+\title{理解深度学习}
+\date{February 15, 2024}
+
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{./TeX_files/chapter01}
+\include{./TeX_files/chapter02}
+\include{./TeX_files/chapter03}
+\include{./TeX_files/chapter04}
+\include{./TeX_files/chapter05}
+\include{./TeX_files/chapter06}
+\include{./TeX_files/chapter07}
+\include{./TeX_files/chapter08}
+\include{./TeX_files/chapter09}
+\include{./TeX_files/chapter10}
+\include{./TeX_files/chapter11}
+\include{./TeX_files/chapter12}
+\include{./TeX_files/chapter13}
+\include{./TeX_files/chapter14}
+\include{./TeX_files/chapter15}
+\include{./TeX_files/chapter16}
+\include{./TeX_files/chapter17}
+\include{./TeX_files/chapter18}
+\include{./TeX_files/chapter19}
+\include{./TeX_files/chapter20}
+\include{./TeX_files/chapter21}
+
+
+
+\backmatter
+% bibliography, glossary and index would go here.
+
+\end{document}

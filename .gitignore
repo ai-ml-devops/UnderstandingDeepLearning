@@ -1,0 +1,32 @@
+.idea/
+
+# LaTeX intermediate files
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.nav
+*.snm
+*.bbl
+*.blg
+
+# Generated files
+*.pdf
+*.dvi
+*.ps
+*.eps
+
+
+
+# Temporary files
+*~
+*.backup
+*.bak
+
+# macOS specific
+.DS_Store
